@@ -39,9 +39,6 @@ We use the NYC Open Data API to collect service requests and store them in a MyS
 
 > ✅ **Tip**: Be sure `.env` is listed in your `.gitignore` to avoid exposing credentials.
 
-**Sample Table Schema Diagram**  
-![Table Schema](images/schema.png)
-
 ---
 
 ## 2️⃣ Exploratory Data Analysis (`EDA/`)
