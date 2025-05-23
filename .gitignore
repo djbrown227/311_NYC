@@ -1,0 +1,6 @@
+.env
+env/
+311_NYC/db_etl/create_db.ipynb
+311_NYC/db_etl/insert_data.ipynb
+311_NYC/db_etl/alter_database.py
+311_NYC/NYPD_311_HotSpotPrediction.ipynb
