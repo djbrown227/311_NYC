@@ -58,7 +58,7 @@ Using SQL queries and Python visualizations to understand complaint patterns:
 ![Top Complaints](assets/complaint_heatmap.png)
 
 **Complaints by Hour**  
-![Hourly Complaints](assets/time_complaint.png.png)
+![Hourly Complaints](assets/time_complaint.png)
 
 ---
 
@@ -87,7 +87,7 @@ We predict whether a given geographic hexagon (H3 index) will become a future co
 
 Below is an example visualization showing the predicted 311 complaint hotspots across NYC. The heatmap highlights areas with the highest likelihood of complaint clusters, based on the model's predictions.
 
-![Predicted 311 Complaint Hotspots](assets/ML_hotspots.png)
+![Predicted 311 Complaint Hotspots](assets/ML_predictions.png)
 ---
 
 ## 🔒 Security: API & DB Credentials
