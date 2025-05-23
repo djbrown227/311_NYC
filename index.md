@@ -54,11 +54,11 @@ Using SQL queries and Python visualizations to understand complaint patterns:
 - Complaint volumes by hour/day
 - Heatmaps of complaint density
 
-**Top Complaint Types**  
-![Top Complaints](images/top_complaints.png)
+**Complaint Heatmap**  
+![Top Complaints](assets/complaint_heatmap.png)
 
 **Complaints by Hour**  
-![Hourly Complaints](images/hourly_complaints.png)
+![Hourly Complaints](assets/time_complaint.png.png)
 
 ---
 
@@ -83,12 +83,11 @@ We predict whether a given geographic hexagon (H3 index) will become a future co
 | Logistic Regression (v2) | 0.64      | 0.67   | 0.65     | 0.94    |
 | Random Forest            | 0.78      | 0.63   | 0.70     | 0.96    |
 
-**ROC Curve**  
-![ROC Curve](images/roc_curve.png)
+## Predicted Hotspots Visualization
 
-**Confusion Matrix**  
-![Confusion Matrix](images/confusion_matrix.png)
+Below is an example visualization showing the predicted 311 complaint hotspots across NYC. The heatmap highlights areas with the highest likelihood of complaint clusters, based on the model's predictions.
 
+![Predicted 311 Complaint Hotspots](assets/ML_hotspots.png)
 ---
 
 ## 🔒 Security: API & DB Credentials
